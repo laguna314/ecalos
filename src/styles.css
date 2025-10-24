@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+.gradient-border {
+  position: relative;
+}
+.gradient-border::before{
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  background: linear-gradient(130deg, rgba(255,124,10,.9), rgba(255,255,255,.05));
+  filter: blur(8px);
+  border-radius: 1rem;
+}
