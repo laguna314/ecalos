@@ -24,6 +24,7 @@
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.10",
+    "@vitejs/plugin-react": "^4.3.3",
     "wrangler": "^3.80.0"
   }
 }
